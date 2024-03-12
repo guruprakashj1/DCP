@@ -6,6 +6,5 @@ contract SimpleStorage {
 
     function setData(uint256 _data) external {
         data = _data;
-        return data;
     }
 }
